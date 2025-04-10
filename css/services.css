@@ -1,0 +1,199 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  color: white;
+  background-image: url("../photo/3263324.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+header {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет ссылкам переноситься на новую строку */
+  justify-content: flex-start; /* Выравнивание по левому краю */
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(0, 4, 255);
+}
+nav a:active {
+  color: rgb(118, 6, 247);
+}
+
+/* Layout */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.content {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+
+/* Background */
+.background-image {
+  width: 100%;
+  height: 1620px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Main content */
+.page-title {
+  color: white;
+  font-size: 48px;
+  line-height: 67.2px;
+  font-weight: 600;
+  position: relative;
+  z-index: 10;
+  margin: 132px auto 24px;
+  max-width: 1360px;
+  padding: 0 24px;
+}
+
+.services-grid {
+  position: relative;
+  z-index: 10;
+  margin: 0 auto;
+  max-width: 1360px;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 440px);
+  gap: 32px;
+  padding-bottom: 48px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Service cards */
+.card {
+  background-color: #d9d9d9;
+  border-radius: 23px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 440px;
+  margin: 0 auto;
+}
+
+.card-title {
+  height: 20px;
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-description {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 32px;
+  width: 250px;
+  height: 50px;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.card-price {
+  color: black;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.order-button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 203px;
+  height: 50px;
+  border: 3px solid #161515;
+  background-color: transparent;
+  color: #161515;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.order-button:hover {
+  background-color: #161515;
+  color: #ffffff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  transform: translate(0em, 7em);
+}
+
+img {
+  width: 80%; /* Занимает всю ширину родительского элемента */
+  height: auto; /* Сохраняет пропорции */
+  object-fit: cover; /* Обеспечивает обрезку изображения, если это необходимо */
+}
+
+span {
+  display: inline-block;
+  transform: translate(5em, 0em);
+}
+
+.footer_O {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}

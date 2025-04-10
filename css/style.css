@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column; /* Изменяет направление на колонку */
+  }
+  .text-left, .text-right {
+      width: 100%; /* Занимает всю ширину */
+  }
+}
+
+
+@font-face {
+    font-family: "Arial";
+    src: url("../fonts/ofont.ru_Arial.ttf");
+  }
+  @font-face {
+    font-family: "Sans-Serif";
+    src: url("../fonts/ofont.ru_Microsoft\ Sans\ Serif.ttf");
+  }
+    
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url("../photo/3263324.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 20px;
+
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет ссылкам переноситься на новую строку */
+  justify-content: flex-start; /* Выравнивание по левому краю */
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(0, 4, 255);  
+
+}
+nav a:active {
+    color: rgb(118, 6, 247);
+  }
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding: 20px;
+    margin: 0 auto; /* Центрирует контейнер */
+    max-width: 1200px; /* Ограничивает максимальную ширину */
+    
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+
+
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+   
+}
+
+.text-left {
+  flex: 1;
+  font-size: 28px;
+  text-align: left;
+  margin-right: 20px; /* Отступ справа для текста */
+}
+
+.text-right {
+  flex: 1;
+  font-size: 28px;
+  text-align: left;
+  margin-left: 20px; /* Отступ слева для изображения */
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    transform: translate(0em, 7em);
+  }
+
+  img {
+    width: 80%; /* Занимает всю ширину родительского элемента */
+    height: auto; /* Сохраняет пропорции */
+    object-fit: cover; /* Обеспечивает обрезку изображения, если это необходимо */
+}
+
+span {
+    display: inline-block;
+    transform: translate(5em, 0em);
+  }
+
+
+.footer_O {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+}

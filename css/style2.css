@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+@font-face {
+    font-family: "Arial";
+    src: url("../fonts/ofont.ru_Arial.ttf");
+  }
+  @font-face {
+    font-family: "Sans-Serif";
+    src: url("../fonts/ofont.ru_Microsoft\ Sans\ Serif.ttf");
+  }
+
+body {
+    margin: 0; /* Убедитесь, что отступы равны 0 */
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('../photo/3263324.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0; /* Уберите нижний отступ */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(0, 4, 255);  
+
+}
+nav a:active {
+    color: rgb(118, 6, 247);
+  }
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+
+span {
+    display: inline-block;
+    transform: translate(5em, 0em);
+  }
+
+
+
+
+
+/* client */
+
+.clients-text {
+    display: flex;
+   margin: 20px 0;
+   font-size: 28px;
+}
+
+
+.image-scroll {
+    display: flex;
+    overflow-x: auto;
+    overflow: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.image-scroll img {
+    
+    display: flex;
+    max-width: 100%;
+    height: 10px;
+    margin: 80px;
+    
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+
+

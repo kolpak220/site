@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@font-face {
+  font-family: "Arial";
+  src: url("../fonts/ofont.ru_Arial.ttf");
+}
+@font-face {
+  font-family: "Sans-Serif";
+  src: url("../fonts/ofont.ru_Microsoft\ Sans\ Serif.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('../photo/3263324.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(0, 4, 255);  
+
+}
+nav a:active {
+  color: rgb(118, 6, 247);
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;}
+
+  span {
+    display: inline-block;
+    transform: translate(5em, 0em);
+  }
+
+
+
+  span2 {
+    display: inline-block;
+    transform: translate(-5em, 0em);
+  }
+
+  span_Z {
+    display: inline-block;
+    transform: translate(13em, 0em);
+  }
+
+  span_O {
+    display: inline-block;
+    transform: translate(-40em, 0em);
+  }
+  span_k_s {
+    display: inline-block;
+    transform: translate(2px, 0em);
+  }
+ span_k {
+    display: inline-block;
+    transform: translate(4px, 0em);
+  }
+  .footer_O {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.reviews-container {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.review {
+  color: black;
+  padding: 15px;
+  margin-bottom: 10px; /* Отступ между комментариями */
+  background-color: white; /* Белый фон для каждого комментария */
+  border-radius: 5px; /* Закругленные углы */
+  overflow: hidden; /* Это обеспечит, что текст не выходит за пределы */
+  word-wrap: break-word; /* Слово будет разбито, если оно слишком длинное */
+}
+.review-text {
+  color: black; /* Цвет текста внутри комментария */
+  margin: 0; /* Убираем отступы по умолчанию */
+}
+
+.review-field {
+  display: none;
+}
+
+.S_buttons {
+  background: rgba(255, 255, 255);
+  width: 100%;
+}
+.O_buttons {
+  background: rgba(255, 255, 255);
+  width: 100px;
+  border: none;
+  button:hover {
+    /* Кнопка видоизменяется при наведении курсора */
+    color: rgb(32, 252, 3);
+  }
+ button:active {
+    /* Меняет цвет при нажатии */
+   color: rgb(53, 241, 6);
+  }
+}
+
+.text-left {color: rgb(255, 255, 255);}
+
+
+
+
+
+.emoji-picker {
+  display: none;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 1;
+}
+.emoji-picker button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}

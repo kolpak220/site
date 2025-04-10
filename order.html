@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZiERA</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Inter:400,600");
+    </style>
+    <link rel="stylesheet" href="css/order.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <span><a href="Index.html">ZiERA</a></span>
+      </nav>
+      <nav style="transform: translate(-5em, 0em)">
+        <a href="onas.html">О компании</a>
+        <a href="client.html">Клиенты</a>
+        <a href="review.html">Отзывы</a>
+        <a href="services.html">Услуги</a>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="title">Заказ</h1>
+
+      <div class="grid">
+        <div>
+          <div class="separate">
+            <div class="card">
+              <h2 class="card-title">Сайт-визитка</h2>
+              <p class="card-description">
+                Небольшой сайт <br />с информацией о компании
+              </p>
+              <p class="card-price">40 000 руб</p>
+            </div>
+            <div class="contact-info">
+              <div class="form-group">
+                <label class="label">ФИО</label>
+                <input type="text" class="input" placeholder="Type here" />
+              </div>
+
+              <div class="form-group">
+                <label class="label">Эл.почта</label>
+                <input type="email" class="input" placeholder="Type here" />
+              </div>
+
+              <div class="form-group">
+                <label class="label">Телефон</label>
+                <input type="tel" class="input" placeholder="Type here" />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="label">Опишите подробнее проект:</label>
+            <textarea class="textarea" placeholder="Type here"></textarea>
+          </div>
+        </div>
+
+        <div class="separate">
+          <div class="form-group">
+            <select class="input">
+              <option value="">Способ оплаты</option>
+              <option value="card">Банковская карта</option>
+              <option value="cash">Наличные</option>
+              <option value="transfer">Банковский перевод</option>
+            </select>
+          </div>
+          <div class="separate">
+            <div class="section-one">
+              <div class="form-group card-number">
+                <label class="label">Номер карты</label>
+                <input type="text" class="input" placeholder="Type here" />
+              </div>
+
+              <div class="name-row">
+                <div class="form-group">
+                  <label class="label">Имя</label>
+                  <input
+                    type="text"
+                    class="input input-name"
+                    placeholder="Type here"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label">Фамилия</label>
+                  <input
+                    type="text"
+                    class="input input-name"
+                    placeholder="Type here"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="label">Срок действия</label>
+              <div class="expiry-wrapper">
+                <div>
+                  <input
+                    type="text"
+                    class="input input-small"
+                    placeholder="Type here2"
+                  />
+                  <div class="expiry-label">Месяц</div>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="input input-small"
+                    placeholder="Type here"
+                  />
+                  <div class="expiry-label">Год</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="label">Код</label>
+              <input
+                type="text"
+                class="input input-code"
+                placeholder="Type here"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="button button-nav">Назад</button>
+        <button class="button button-nav">Оплатить</button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div>
+        <p style="transform: translate(5em, 0em)">ТЕЛ. 88005553535</p>
+
+        <p style="transform: translate(5em, 0em)">ZIERA34@mail.ru</p>
+      </div>
+      <div>
+        <p style="transform: translate(-5em, 0em)">2024 @ ZiERA</p>
+      </div>
+    </footer>
+  </body>
+</html>
