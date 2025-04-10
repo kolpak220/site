@@ -166,11 +166,15 @@ nav a:active {
   height: 78px;
   font-size: 48px;
 }
-
 .button-nav {
   width: 210px;
   height: 51px;
   font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+  text-align: center;
 }
 
 .nav-buttons {

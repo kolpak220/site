@@ -80,7 +80,8 @@ nav a:active {
   font-weight: 600;
   position: relative;
   z-index: 10;
-  margin: 132px auto 24px;
+  margin: 40px 270px auto;
+  margin-bottom: 20px;
   max-width: 1360px;
   padding: 0 24px;
 }
